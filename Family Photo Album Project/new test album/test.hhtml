@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Family Album</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="frame-1 screen">
+    <div class="desktop-1">
+      <div class="rectangle-1">
+        <h1 class="title valign-text-middle">Family Album</h1>
+      </div>
+      <div class="flex-row">
+        <div class="flex-col">
+          <div class="rectangle-6">
+            <div class="bible-verse valign-text-middle">Bible Verse</div>
+          </div>
+          Login
+        </div>
+        <div class="rectangle-3"></div>
+      </div>
+      <div class="rectangle-4">
+        <div class="welcome valign-text-middle kalam-normal-black-36px">Welcome!</div>
+        <div class="login-password valign-text-middle kalam-normal-black-36px">Login:<br>Password:</div>
+        <div class="please-login valign-text-middle kalam-normal-black-36px">Please Login:</div>
+      </div>
+      <div class="flex-col-1">
+        <div class="rectangle-2">
+          <div class="grateful-for-family valign-text-middle">Grateful for Family</div>
+        </div>
+        <div class="rectangle-3-1"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+
+/* Style for the overall frame */
+.frame-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  /* Style for the title */
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Style for the Bible verse */
+  .bible-verse {
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    color: #666;
+  }
+  
+  /* Style for the login form */
+  .rectangle-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 8px;
+    margin-top: 50px;
+  }
+  
+  /* Style for the login form text */
+  .login-password {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Style for the welcome message */
+  .welcome {
+    font-size: 36px;
+    text-align: center;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Style for the "please login" text */
+  .please-login {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    color: #666;
+  }
+  
+  /* Style for the "grateful for family" text */
+  .grateful-for-family {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Style for the rectangles */
+  .rectangle-1,
+  .rectangle-2,
+  .rectangle-3,
+  .rectangle-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  /* Style for the custom class */
+  .kalam-normal-black-36px {
+    font-family: 'Kalam', cursive;
+    font-size: 36px;
+    color: #333;
+  }
+  
+  :root {
+    --black: rgba(0, 0, 0, 1);
+    --alto: rgba(217, 217, 217, 1);
+    --font-size-xs: 24px;
+    --font-size-s: 32px;
+    --font-size-m: 36px;
+    --font-size-1: 48px;
+    --font-family-kalam: "Kalam";
+  }
+  
+  .kalam-normal-black-36px {
+    color: var(--black);
+    font-family: var(--font-family-kalam);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+  }
+  
