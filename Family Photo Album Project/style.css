@@ -1,0 +1,87 @@
+/* Style for the overall frame */
+.frame-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  /* Style for the title */
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Style for the Bible verse */
+  .bible-verse {
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    color: #666;
+  }
+  
+  /* Style for the login form */
+  .rectangle-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 8px;
+    margin-top: 50px;
+  }
+  
+  /* Style for the login form text */
+  .login-password {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Style for the welcome message */
+  .welcome {
+    font-size: 36px;
+    text-align: center;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Style for the "please login" text */
+  .please-login {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    color: #666;
+  }
+  
+  /* Style for the "grateful for family" text */
+  .grateful-for-family {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Style for the rectangles */
+  .rectangle-1,
+  .rectangle-2,
+  .rectangle-3,
+  .rectangle-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
