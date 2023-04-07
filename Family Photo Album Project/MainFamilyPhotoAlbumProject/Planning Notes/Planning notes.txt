@@ -1,0 +1,1 @@
+BLOB storage with compressed files and acces to originals seems to be the best solution
