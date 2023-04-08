@@ -3,13 +3,31 @@
     justify-content: space-between;
   }
   
-  .left-div {
+  /* .align-left {
     width: 50%;
-    background-color: #f1f1f1;
+    background-color: rgba(255, 243, 254, 0.918);
+    background: linear-gradient(to right, rgba(255, 243, 254, 0.918), #ffffff);
   }
   
-  .right-div {
+  .align-right {
     width: 50%;
-    background-color: #ccc;
-  }
+    background-color: rgba(255, 243, 254, 0.918);
+    background: linear-gradient(to right, rgba(255, 243, 254, 0.918), #ffffff);
+  } */
   
+  nav {background-color: rgb(138, 0, 156);}
+  .align-left {
+    width: 50%;
+    /* background: linear-gradient(45deg,rgba(255, 225, 252, 0.719), #ffffff); */
+    background: linear-gradient(45deg,rgba(255, 243, 254, 0.918), #ffffff,)
+  }
+
+  .align-right {
+    width: 50%;
+    background: linear-gradient(45deg, rgba(255, 243, 254, 0.918), #ffffff);
+  }
+
+
+
+
+
