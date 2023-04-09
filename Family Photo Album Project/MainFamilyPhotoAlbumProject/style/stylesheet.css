@@ -1,0 +1,39 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+  nav {background-color: rgb(181, 82, 194);}
+  
+  body{
+    background: linear-gradient(45deg, rgba(255, 230, 253, 0.918), rgba(255, 243, 254, 0.918));
+  }
+  .align-left {
+    width: 45%;
+    border-right: 1px solid black;
+    text-align: center;
+  }
+  .align-right {
+    width: 65%;
+    text-align: center;
+  }
+
+
+
+    /* .align-left {
+    width: 50%;
+    background-color: rgba(255, 243, 254, 0.918);
+    background: linear-gradient(to right, rgba(255, 243, 254, 0.918), #ffffff);
+  }
+  
+  .align-right {
+    width: 50%;
+    background-color: rgba(255, 243, 254, 0.918);
+    background: linear-gradient(to right, rgba(255, 243, 254, 0.918), #ffffff);
+  } */
+  
+
+
+
+

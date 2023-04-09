@@ -1,0 +1,17 @@
+body {
+    background-color: #dfc8c8;
+    
+  }
+
+h1{text-align: center;}
+
+.image-grid {
+    justify-content: center;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* creates three equal columns */
+    grid-gap: 4px; /* adds a 2px gap between images */
+  }
+
+img {height: 400px; width: 375px; text-align:center; border: #000000 1px solid;}
+
