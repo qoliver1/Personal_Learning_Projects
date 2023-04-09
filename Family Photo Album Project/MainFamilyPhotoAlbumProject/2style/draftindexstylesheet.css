@@ -1,0 +1,18 @@
+.parentFullScreen {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftSide {
+    width: 50%;
+    text-align: center;
+}
+
+.rightSide {
+    width: 50%;
+    text-align: center;
+}
+
+.mainTitle {
+    text-align: center;
+}

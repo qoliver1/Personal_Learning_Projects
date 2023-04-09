@@ -2,14 +2,20 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: linear-gradient(45deg, rgba(255, 230, 253, 0.918), rgba(255, 243, 254, 0.918));
   }
-
+  nav {background-color: rgb(181, 82, 194);}
+  
+  button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  }
+  
   h1{
     font-weight: bold;
   }
 
-  nav {background-color: rgb(181, 82, 194);}
-
   .homeButton {height: 50px; font-size: medium;}
+
+ 
+  
 
   .fillWholeScreen {
     display: flex;
